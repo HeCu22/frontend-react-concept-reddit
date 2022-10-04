@@ -1,0 +1,40 @@
+.headsubreddit {
+    background-color: var(--oranje);
+}
+
+.subreddit-container {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subreddit {
+    text-align: left;
+    margin: 50px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.subreddit a {
+    color: #dd3038;
+
+}
+
+.headsubreddit p {
+    font-size: 16px;
+    background-color: var(--lichtoranje);
+}
+
+.back-icon {
+    width: 32px;
+    height: 32px;
+}
+
+.back-icon > path {
+    fill: var(--rood);
+}

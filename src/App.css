@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&family=Roboto&family=Roboto+Condensed:wght@300;400&display=swap');
+
+/*////////////////////////
+    Table of Contents
+    1. Global Styles
+    2. Typography
+    3. Layout
+        3.1 Reusables
+        3.2 Other
+    4. Areas
+        4.1 Header
+        4.2 Introduction
+        4.3 ...
+        4.4....
+        4.5 Contact
+        4.6 Footer
+    5. Media Queries
+////////////////////////*/
+
+/* ------------------------------- 1. Global Styles -------------------------------- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+    --rood: #dd3038;
+    --oranje: #e7613a;
+    --lichtoranje: #FDF4F2;
+    --standaard-tekst-zwart: #292929;
+    --wit: #FFFFFF;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+/* ------------------------------- 2. Typography -------------------------------- */
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Quicksand', Georgia, sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body {
+    font-family: Roboto Condensed, Arial, sans-serif;
+    text-align: center;
+    align-items: center;
+    background-color: var(--lichtoranje);
+
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+

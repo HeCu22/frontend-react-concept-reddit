@@ -1,0 +1,32 @@
+.headhome {
+    background-color: var(--oranje);
+    width: 100%;
+}
+
+.headhome h2, h3{
+    background-color: var(--lichtoranje);
+
+}
+
+.headhome button {
+    border: none;
+}
+
+.headhome img {
+    height: 100px;
+    background-color: var(--oranje);
+    border: 0px;
+}
+
+
+.overview {
+    /*margin: 24px 0;*/
+    column-count: 3;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+
+}
